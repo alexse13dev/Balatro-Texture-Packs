@@ -11,9 +11,11 @@ function SMODS.INIT.DeIconedTexturePack()
     sendDebugMessage("Launching DeIconed Texture Pack!")
 
     local DeIconed_mod = SMODS.findModByID("DeIconedTexturePack")
-    local sprite_card = SMODS.Sprite:new("cards_1", DeIconed_mod.path, "DeIconedDeck.png", 71, 95, "asset_atli")
+    local sprite_cards_1 = SMODS.Sprite:new('cards_1', DeIconed_mod.path, 'DeIconedDeck.png', 71, 95, 'asset_atli')
+    local sprite_cards_2 = SMODS.Sprite:new('cards_2', DeIconed_mod.path, 'HighContrastDeIconed.png', 71, 95, 'asset_atli')
     
-    sprite_card:register()
+    sprite_cards_1:register()
+    sprite_cards_2:register()
 end
 
 ----------------------------------------------
