@@ -6,7 +6,7 @@ Hi so i make Balatro texture packs, ive made some so you can make your own easie
 
 Tutorial for installing Texture Packs!
 
-- Get steamodded from https://github.com/Steamopollys/Steamodded and drag Balatro.exe onto it.
+- Get steamodded from https://github.com/Steamopollys/Steamodded and drag Balatro.exe onto it. (Im not sure if this is currently correct with game and steamodded updates)
 - go into %appdata% or C:\Users\[Your User Here]\AppData\Roaming\Balatro and add a folder called Mods.
 - Put your [texture pack name here] folder into that mods folder and start the game!
 - Enjoy your Texture Pack!
